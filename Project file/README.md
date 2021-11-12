@@ -1,4 +1,4 @@
-#Introduction About Zimpliq Quiz
+# Introduction About Zimpliq Quiz
 
 According to Zimpliq quiz website, it may consider a quiz website. It was built for admin users and students. Admin can upload quizzes and students could be answered the quizzes. There are login and sign-up functions for entering the website. The signup function is the same for the students and teachers. There are several details needed for signing up.
 
