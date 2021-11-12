@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %} Add Quiz {% endblock %}
+
+{% block body %}
+<div class="container mt-4">
+    <div>
+        <form action="/add_quiz/" method="POST"> {% csrf_token %}
+            {{ form.as_p }}
+    </div>
+    
+    <div style="padding-left: 40%;">
+        <button type="submit" class="btn btn-info" style="background-color:#7BC143; width: 50%;">Submit</button>
+    </div>
+    
+</form>
+</div>
+{% endblock %}
+
