@@ -2,15 +2,9 @@
 Group project of team Great mates under DA3330 - Business Application Development subject.
 
 
-# Introduction about Zimpliq
+# About Zimpliq
 
-According to Zimpliq quiz website, it may consider a quiz website. It was built for admin users and students. Admin can upload quizzes and students could be answered the quizzes. There are login and sign-up functions for entering the website. The signup function is the same for the students and teachers. There are several details needed for signing up.
-
-Login as Student 
-Here students can see Navigation keys and after select zimpliq quiz logo, they can come back to the home page. After the student by into the home page. They can get various quizzes and he can answer them only within the given time period. After answering questions, students can see what the correct answers are.
-
-Login as admin 
-If the admin needs to get admin privileges they need to log in or signup. After login, the user gets student privileges so, we have to turn it into an admin account. So first we go to the database "db" and get the "auth_ user" table. Then select the person who wants to give admin privileges, and need to turn the value of that person's row of "is_superuser" column as "1" for becoming the relevant user as admin and admin needs to save it, then need to refresh the browser. After the refresh, that user turns as admin. These admins can add quizzes, questions and see students ' results.
-
+‘Zimpliq Quiz’ website has been designed as a knowledge platform for students to enhance their understanding of several subjects. Here Admin/ Teacher should create an account, afterward the admin is able to put questions, specifying the time duration of the test. The specialty of this is, once the administrator is registered, and then he can put questions any time he wants. 
+Students who are willing to attempt quizzes should initially sign up. After that student is allowed to use the username and password to log in to the system. Then the student is directed to the page where the subject names are visible. From that, students should pick one subject and attempt the quiz within the given time period. After the attempt, the system generates the result which consists of a number of correct answers and incorrect answers. Afterward, the student has the ability to try out another set of questions from the rest of the subjects. 
 
 
